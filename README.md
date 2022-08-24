@@ -2,8 +2,6 @@
 
 A Slack bot and standalone script for exporting messages and file attachments from public and private channels, using Slack's new Conversations API.
 
-A similar service is provided by Slack for workspace admins at [https://my.slack.com/services/export](https://my.slack.com/services/export) (where `my` can be replaced with your full workspace name to refer to a workspace different than your default). However, it can only access public channels, while `slack-exporter` can retrieve data from any channel accessible to your user account.
-
 ## Authentication with Slack
 
 1. Visit [https://api.slack.com/apps/](https://api.slack.com/apps/) and sign in to your workspace.
